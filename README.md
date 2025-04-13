@@ -31,7 +31,7 @@ Caso você queira clonar e rodar este projeto na sua máquina, siga os passos ab
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/lehcibele/petlife-landing-page.git
+   git clone https://github.com/lehcibele/petlife.git
 2. Acesse a pasta do projeto:
     ```bahs
     cd petlife-landing-page
