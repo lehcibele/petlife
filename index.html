@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetLife</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/nav.css">
+
+</head>
+<body>
+    <!-- INICIO: HEADER -->
+    <header class="header">
+
+        <h1 class="logo">PetLife</h1> <!-- Logo do site -->
+
+        <nav class="navbar"> <!-- Menu de navegação -->
+            <ul class="nav-list">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Clínica</a></li>
+                <li><a href="#">Farmácia</a></li>
+                <li><a href="#">Dúvidas</a></li>
+            </ul>
+        </nav>
+
+        <!-- Menu hamburguer -->
+        <div class="icon-menu-hambuguer-abrir"> <!-- Ícone do menu hamburguer -->
+            <img src="src/img/icon-menu-hambuguer-abrir.png" alt="">
+        </div>
+    </header>
+
+    <div class="overlay" id="overlay"></div> <!-- Overlay que cobre a tela quando o menu hamburguer está aberto -->
+
+    <nav class="menu-hamburguer"> <!-- Menu de navegação -->
+        <div class="icon-menu-hambuguer-fechar"> <!-- Ícone do menu hamburguer -->
+            <img src="src/img/icon-menu-hambuguer-fechar.png" alt="">
+        </div>
+
+
+        <ul class="nav-list-hamburguer">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Clínica</a></li>
+            <li><a href="#">Farmácia</a></li>
+            <li><a href="#">Dúvidas</a></li>
+        </ul>
+    </nav>
+    <!-- FIM: HEADER -->
+
+
+    <script src="src/js/menu-hamburguer.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,16 @@
+/* CSS - Global  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /* VARIÁVEIS GLOBAIS */
+    --cor-header: #FF9A6C;
+    --cor-button: #FF725E;
+    --cor-branco: #FFFFFF;
+    --cor-texto: #263238;
+    --font-texto: "Montserrat", sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}

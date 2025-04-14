@@ -5,6 +5,8 @@
 
 Este projeto marca o início da minha jornada no desenvolvimento web, sendo o primeiro com versionamento completo usando Git e hospedagem com GitHub Pages.
 
+[Link do mockup](https://www.figma.com/design/ObmGmIUdpg2L4HbgggwcIy/Funil-OBC-Start-2.0?t=KpChIrWbCneCNdNn-0)
+
 ## 🚀 Tecnologias Utilizadas
 
 - HTML5  
