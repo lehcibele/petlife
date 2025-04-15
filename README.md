@@ -11,7 +11,7 @@ Este projeto marca o início da minha jornada no desenvolvimento web, sendo o pr
 
 - HTML5  
 - CSS3  
-- JavaScript (quando necessário)  
+- JavaScript
 - Git  
 - GitHub  
 - GitHub Pages
