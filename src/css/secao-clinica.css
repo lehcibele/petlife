@@ -1,0 +1,59 @@
+.container-clinica {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 0 auto;
+    width: 85%;
+    margin-top: 18%;
+}
+
+.conteudo-clinica {
+    max-width: 50%;
+    font-family: var(--font-texto);
+    color: var(--cor-texto);
+    text-align: justify;
+}
+
+.titulo-clinica {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 110%;
+    margin-bottom: 2rem;
+}
+
+.descricao-clinica, .lista-itens-clinica {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 150%;
+    margin-bottom: 2rem;
+}
+
+.lista-itens-clinica {
+    list-style: outside;
+    line-height: 200%;
+    margin-left: 4%;
+}
+
+.container-img-clinica {
+    width: 480px;
+    height: 480px;
+}
+
+.container-img-clinica img {
+    width: 100%;
+    height: 100%;
+}
+
+.onda {
+    max-width: 1440px;
+    width: 100%;
+    position: absolute;
+    top: 480px;
+    z-index: -1;
+}
+
+.onda svg {
+    width: 100%;
+    height: 100%;
+}
