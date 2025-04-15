@@ -57,3 +57,17 @@
     width: 100%;
     height: 100%;
 }
+
+/* RESPONSIVIDADE - 1290px */
+@media (max-width: 1290px) {
+    .onda {
+        top: 463px;
+    }
+}
+
+/* RESPONSIVIDADE - 1200px */ 
+@media (max-width: 1290px) {
+    .onda {
+        top: 450px;
+    }
+}

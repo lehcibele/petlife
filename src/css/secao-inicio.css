@@ -62,4 +62,24 @@
     font-weight: 600;
 }
 
+/* RESPONSIVIDADE - 1130px */ 
+@media (max-width: 1130px) {
+    .container-inicio {
+        flex-direction: column-reverse;
+    }
+
+    .container-img-inicio {
+        width: 480px;
+        height: 480px;
+    }
+
+    .conteudo-inicio {
+        max-width: 85%;
+    }
+
+    .conatiner-botoes {
+        text-align: center;
+    }
+}
+
 
