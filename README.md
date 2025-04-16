@@ -3,7 +3,7 @@
 ## 📌 Sobre o Projeto
 >A **PetLife** é uma landing page desenvolvida com o objetivo de colocar em prática meus conhecimentos em **HTML**, **CSS** e **JavaScript**, além de aprofundar meu aprendizado em responsividade, boas práticas de código e estruturação de projetos com **Git** e **GitHub**.
 
-![alt text](src/img/image.png)
+[![alt text](src/img/image.png)](https://lehcibele.github.io/petlife/)
 
 Este projeto marca o início da minha jornada no desenvolvimento web, sendo o primeiro com versionamento completo usando Git e hospedagem com GitHub Pages.
 
