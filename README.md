@@ -36,7 +36,7 @@ Caso você queira clonar e rodar este projeto na sua máquina, siga os passos ab
    git clone https://github.com/lehcibele/petlife.git
 2. Acesse a pasta do projeto:
     ```bahs
-    cd petlife-landing-page
+    cd petlife
 3. Abra o arquivo index.html no seu navegador ou utilize a extensão Live Server do VSCode para visualizar localmente.
 
 ## 🌐 Deploy

@@ -71,3 +71,66 @@
         top: 450px;
     }
 }
+
+/* RESPONSIVIDADE - 1130px */ 
+@media (max-width: 1130px) {
+    .onda {
+        top: 40%;
+    }
+
+    .descricao-clinica, .lista-itens-clinica {
+        font-size: 1rem;
+        line-height: 150%;
+    }
+}
+
+/* RESPONSIVIDADE - 768px */ 
+@media (max-width: 768px) {
+    .onda {
+        top: 37%;
+    }
+
+    .container-clinica {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .conteudo-clinica {
+        max-width: 85%;
+    }
+
+    .titulo-clinica  {
+        text-align: center;
+    }
+
+    .lista-itens-clinica {
+        margin-bottom: 0rem;
+    }
+}
+
+/* RESPONSIVIDADE - 550px */ 
+@media (max-width: 550px) {
+    .onda {
+        top: 40%;
+    }
+
+    .container-clinica {
+        margin-top: 10%;
+        width: 95%;
+    }
+
+    .conteudo-clinica {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 490px) {
+    .onda {
+        top: 40%;
+    }
+
+    .container-img-clinica {
+        width: 300px;
+        height: 300px;
+    }
+}
