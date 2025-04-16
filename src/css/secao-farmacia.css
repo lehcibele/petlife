@@ -1,0 +1,39 @@
+.container-farmacia {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.titulo-farmacia {
+    font-family: var(--font-texto);
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 110%;
+    text-align: center;
+    color: var(--cor-texto);
+}
+
+.container-img-farmacia {
+    max-width: 645px;
+    max-height: 430px;
+}
+
+.container-img-farmacia img {
+    width: 100%;
+    height: 100%;
+}
+
+.descricao-farmacia {
+    font-family: var(--font-texto);
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 180%;
+    color: var(--cor-texto);
+    text-align: justify;
+    max-width: 85%;
+}
