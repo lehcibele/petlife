@@ -60,6 +60,11 @@
     padding-right: 2rem; /* espaço pro ícone */
 }
 
+.conteudo-duvida summary:hover {
+    color: var(--cor-button);;
+    transition: all 0.3s ease;
+}
+
 .conteudo-duvida summary::-webkit-details-marker {
     display: none; /* Chrome, Safari */
 }

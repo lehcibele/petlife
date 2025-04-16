@@ -1,0 +1,82 @@
+.footer {
+    max-width: 1440px;
+    background-color: var(--cor-footer);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: baseline;
+}
+
+.container-descricao-footer, .container-links-footer, .container-contato-footer {
+    font-family: var(--font-texto);
+    margin: 10% auto;
+
+}
+
+.container-descricao-footer {
+    width: 80%;
+
+}
+
+.logo-footer {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--cor-button);
+    text-align: start;
+    margin-bottom: 1.5rem;
+}
+
+.descricao-footer {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.titulo-links-footer, .titulo-contato-footer {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 1.5rem;
+}
+
+.navbar-footer li {
+    margin-bottom: 1rem;
+}
+
+.navbar-footer li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-footer li > a:hover {
+    color: var(--cor-button);
+    transition: all 0.1s ease;
+}
+
+.container-contato-footer p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.container-dev-footer {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: var(--font-texto);
+}
+
+.container-dev-footer a {
+    text-decoration: none;
+    color: var(--cor-button);
+    font-weight: 600;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+
+.container-dev-footer a:hover {
+    background-color: var(--cor-button);
+    color: var(--cor-branco);
+    padding: 0.2rem;
+    border-radius: 8px;
+    transition: all 0.1s ease;
+}

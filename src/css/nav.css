@@ -28,7 +28,24 @@
     color: var(--cor-branco);
     font-weight: 600;
     font-size: 1.25rem;
+    position: relative;
 }
+
+.nav-list a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: var(--cor-branco); 
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-list a:hover::after {
+    width: 100%;
+}
+
 
 /* CSS - Menu Hamburguer */
 .icon-menu-hambuguer-abrir, .menu-hamburguer {
