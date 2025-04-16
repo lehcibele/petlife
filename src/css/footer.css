@@ -5,6 +5,7 @@
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: baseline;
+    margin-top: 5%;
 }
 
 .container-descricao-footer, .container-links-footer, .container-contato-footer {
@@ -29,6 +30,7 @@
 .descricao-footer {
     font-size: 1rem;
     font-weight: 400;
+    line-height: 130%;
 }
 
 .titulo-links-footer, .titulo-contato-footer {
@@ -79,4 +81,26 @@
     padding: 0.2rem;
     border-radius: 8px;
     transition: all 0.1s ease;
+}
+
+@media (max-width: 830px) {
+    .container-contato-footer {
+        width: 90%;
+    }
+}
+
+/* RESPONSIVIDADE - 780px */ 
+@media (max-width: 780px) {
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container-dev-footer {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .container-contato-footer {
+        display: none;
+    }
 }
